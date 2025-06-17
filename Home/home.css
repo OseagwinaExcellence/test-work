@@ -1,0 +1,24 @@
+
+header {
+     background-color: black;
+     color: rgb(253, 166, 6);
+     width: 1250px;
+     padding: 10px 0px;
+     border-radius: 10px;
+     border: 5px wheat solid;
+}
+
+
+/*Styling the list*/
+ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+
+}
+
+li {
+       list-style: none;
+       font-size: large;
+       font-weight: bold;
+}
