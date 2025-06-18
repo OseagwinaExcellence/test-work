@@ -61,4 +61,7 @@ button:hover {
      background-color: black;
      color: white;
      cursor: pointer;
+     width: 210px;
+     height: 55px;
+     transition: 0.5s;
 }
