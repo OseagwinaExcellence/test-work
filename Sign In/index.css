@@ -52,5 +52,10 @@ button {
 }
 
 /*Hover*/
-
-
+input:hover {
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+     font-weight: bolder;
+     font-size: large;
+}
