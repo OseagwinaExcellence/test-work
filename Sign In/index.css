@@ -30,18 +30,19 @@ label {
      padding-left: 10px;
 }
 
-div {N
+div {
+     margin-top: 20px;
      text-align: center;
 }
 
 
 button {
-     background-color: rgb(218, 186, 186);
-     color: rgb(255, 0, 0);
+     background-color: rgb(255, 255, 255);
+     color: black;
      font-weight: bold;
      font-size: 15px;
-     width: 195px;
-     height: 35px;
+     width: 199px;
+     height: 45px;
      border-radius: 10px;
      cursor: pointer;
      margin-top: 10px;
