@@ -2,18 +2,20 @@
 /*Form*/
 form {
      background-color: rgb(8, 8, 8);
-     width: 400px;
+     width: 390px;
      margin-left: auto;
      margin-right: auto;
-     padding: 60px 100px 50px 100px;
+     padding: 60px 10px 50px 60px;
      border: 5px solid wheat;
      border-radius: 20px;
      margin-top: 100px;
 }
 
 input {
-     width: 395px;
-     height: 25px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 305px;
+     height: 30px;
      margin-bottom: 20px;
      margin-top: 6px;
      border-radius: 100px;
@@ -22,7 +24,7 @@ input {
 }
 
 label {
-     font-size: x-large;
+     font-size: large;
      font-weight: bold;
      color: whitesmoke;
      padding-left: 10px;
@@ -39,18 +41,18 @@ button {
      color: black;
      font-weight: bold;
      font-size: 15px;
-     width: 199px;
-     height: 45px;
+     width: 190px;
+     height: 35px;
      border-radius: 10px;
      
 
 }
 #reminder {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-     margin: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
      font-weight: bold;
 }
 
@@ -68,15 +70,15 @@ input:hover {
      color: white;
      transition: 0.5s;
      font-weight: bolder;
-     font-size: large;
+     font-size: 15px;
 }
 
 button:hover {
      background-color: black;
      color: white;
      cursor: pointer;
-     width: 210px;
-     height: 55px;
+     width: 199px;
+     height: 40px;
      transition: 0.5s;
      border: 2px solid white;
 }
