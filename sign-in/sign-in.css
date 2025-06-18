@@ -29,6 +29,13 @@ label {
      padding-left: 10px;
 }
 
+h1 {
+     color: white;
+     text-align: center;
+     margin-bottom: 29px;
+       margin-right: 40px;
+}
+
 div {
      text-align: center;
      color: white;
@@ -87,4 +94,8 @@ button:hover {
 form:hover {
      background-color: rgb(20, 20, 20);
      border: 5px solid rgb(144, 108, 42);
+}
+
+a:hover {
+     color: red;
 }
