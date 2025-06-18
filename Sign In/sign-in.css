@@ -64,5 +64,5 @@ button:hover {
      width: 210px;
      height: 55px;
      transition: 0.5s;
-     
+     border: 2px solid white;
 }
