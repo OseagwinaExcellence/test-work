@@ -30,7 +30,7 @@ label {
      padding-left: 10px;
 }
 
-div {
+div {N
      text-align: center;
 }
 
@@ -48,18 +48,3 @@ button {
      margin-bottom: 40px;
 }
 
-/*Hover*/
-input:hover {
-     background-color: rgb(57, 17, 17);
-     color: white;
-     font-weight: bold;
-     transition: 0.5s;
-}
-
-button:hover {
-     background-color: burlywood;
-     width: 200px;
-     height: 40px;
-     padding: 5px 10px;
-     transition: 0.5s;
-}
