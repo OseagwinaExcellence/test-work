@@ -1,6 +1,5 @@
 body {
      font-family: monospace;
-     background: linear-gradient(black, grey, white);
-     background-repeat: no-repeat;
+     background: linear-gradient(black, grey,black);
      color: rgb(9, 9, 9);
 }

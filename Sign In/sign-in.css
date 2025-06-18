@@ -1,7 +1,7 @@
 
 /*Form*/
 form {
-     background-color: rgb(38, 32, 32);
+     background-color: rgb(8, 8, 8);
      width: 400px;
      margin-left: auto;
      margin-right: auto;
@@ -64,4 +64,5 @@ button:hover {
      width: 210px;
      height: 55px;
      transition: 0.5s;
+     
 }
