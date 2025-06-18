@@ -24,7 +24,7 @@ li {
 
 }
 
-.main-1 {
+.container-1 {
      width: 1250px;
      height: 300px;
      background-color: rgb(52, 11, 11);
@@ -33,7 +33,9 @@ li {
      margin-top: 10px;
      border-radius: 10px;
      border: 2px black solid;
-     
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
 }
 
 /*Hover*/
@@ -42,4 +44,12 @@ li:hover {
        font-size: x-large;
        transition: 0.5s;
        cursor: pointer;
+}
+
+.box {
+     background-color: aqua;
+     width: 100px;
+     height: 50px;
+     margin-top: 10px;
+     border-radius: 10px;
 }
