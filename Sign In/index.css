@@ -44,9 +44,6 @@ button {
      width: 199px;
      height: 45px;
      border-radius: 10px;
-     border-bottom: 1px white solid;
-     
-     cursor: pointer;
      margin-top: 10px;
      margin-bottom: 40px;
 }
@@ -58,4 +55,10 @@ input:hover {
      transition: 0.5s;
      font-weight: bolder;
      font-size: large;
+}
+
+button:hover {
+     background-color: black;
+     color: white;
+     cursor: pointer;
 }
