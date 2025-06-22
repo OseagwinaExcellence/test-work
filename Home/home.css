@@ -50,6 +50,10 @@ li {
      border-radius: 10px;
 }
 
+li > a {
+     color: rgb(253, 166, 6);
+}
+
 /*Hover*/
 li:hover {
        color: rgb(238, 235, 235);
@@ -59,6 +63,3 @@ li:hover {
        background-color: black;
 }
 
- li > a {
- color: rgb(253, 166, 6);
-}
