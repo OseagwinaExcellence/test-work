@@ -59,6 +59,6 @@ li:hover {
        background-color: black;
 }
 
-a {
- color: ;    
+ li > a {
+ color: rgb(253, 166, 6);
 }
