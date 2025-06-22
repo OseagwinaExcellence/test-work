@@ -42,19 +42,6 @@ div {
      color: white;
 }
 
-button {
-     background-color: rgb(255, 255, 255);
-     color: black;
-     font-weight: bold;
-     font-size: 15px;
-     width: 190px;
-     height: 35px;
-     margin-right: 40px;
-     border-radius: 10px;
-     
-
-}
-
 #reminder {
      display: flex;
      flex-direction: row;
@@ -68,8 +55,19 @@ button {
      width: 15px;
 }
 
-a {
-   color: white;  
+button {
+     background-color: white;
+     height: 30px;
+     width: 150px;
+     border-radius: 10px;
+     color: black;
+     font-weight: bold;
+     font-size: 15px;
+     padding: 15px 10px 27px 10px;    
+}
+
+p > a {
+     color: white;
 }
 
 /*Hover*/
@@ -81,22 +79,13 @@ input:hover {
      font-size: 15px;
 }
 
-button:hover {
-     background-color: black;
-     color: white;
-     cursor: pointer;
-     width: 199px;
-     height: 40px;
-     transition: 0.5s;
-     border: 2px solid white;
-}
-
-
 form:hover {
      background-color: rgb(20, 20, 20);
      border: 5px solid rgb(144, 108, 42);
 }
 
-a:hover {
-     color: red;
-}
+button:hover {
+     background-color: black;
+     color: white;
+     transition: 0.3s;
+}    

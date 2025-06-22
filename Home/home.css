@@ -48,6 +48,8 @@ li {
      height: 50px;
      margin-top: 10px;
      border-radius: 10px;
+     
+
 }
 
 li > a {
@@ -63,3 +65,8 @@ li:hover {
        background-color: black;
 }
 
+.box:hover {
+     background-color: black;
+     transition: 0.5s;
+     
+}
