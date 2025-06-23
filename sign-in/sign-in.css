@@ -83,7 +83,8 @@ input:hover {
 
 form:hover {
      background-color: rgb(20, 20, 20);
-     border: 5px solid rgb(144, 108, 42);
+     border: 5px solid rgb(40, 26, 1);
+     transition: 1s;
 }
 
 button:hover {
