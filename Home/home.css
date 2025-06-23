@@ -70,3 +70,10 @@ li:hover {
      transition: 0.5s;
 
 }
+
+
+footer {
+     background-color: chocolate;
+     width: auto;
+     height: auto;
+}
