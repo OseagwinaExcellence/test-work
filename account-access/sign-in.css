@@ -35,7 +35,7 @@ div {
      display: flex;
      flex-direction: row;
      align-items: center;
-     justify-content: space-around;
+     justify-content: space-between;
      margin-right: 40px;
      font-weight: bold;
      cursor: pointer;

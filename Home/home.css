@@ -81,6 +81,13 @@ button {
      cursor: pointer;
 }
 
+diV {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
 /*Hover*/
 li:hover {
        color: rgb(238, 235, 235);
