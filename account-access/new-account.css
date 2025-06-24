@@ -1,26 +1,30 @@
 form {
      border-radius: 50px;
      margin-top: 150px;
-     padding: 10;
-     width: 500px;
+     padding: 10px 10px 10px 10px;
+     width: 450px;
 }
 
 h1 {
      color: white;
      margin-top: 50px;
      margin-bottom: 40px;
+     text-align: center;
 }
 
 label {
      color: white;  
      text-align: center;
+     margin-left: 80px;
+     margin-top: 15px;
 }
 
 input {
      margin-left: auto;
      margin-right: auto;
      width: 300px;
-     display: flex;
+     display: block;
+     margin-bottom: 30px;
 }
 
 div {
@@ -37,10 +41,14 @@ select {
      margin-right: auto;
 }
 
+/*Classes*/
 .dob-input {
      width: 150px;
+     
 }
 
 .option {
 
 }
+
+.dob-label
