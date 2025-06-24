@@ -2,6 +2,7 @@ form {
      border-radius: 50px;
      margin-top: 150px;
      padding: 10;
+     width: 500px;
 }
 
 h1 {
@@ -11,12 +12,15 @@ h1 {
 }
 
 label {
-     color: white;     
+     color: white;  
+     text-align: center;
 }
 
 input {
      margin-left: auto;
      margin-right: auto;
+     width: 300px;
+     display: flex;
 }
 
 div {
@@ -24,6 +28,19 @@ div {
      margin-bottom: 30px;
 }
 
+
+select {
+     background-color: red;
+     width: 100px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
 .dob-input {
      width: 150px;
+}
+
+.option {
+
 }
