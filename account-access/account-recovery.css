@@ -47,8 +47,8 @@ div {
      text-align: center;
 }
 
-a {
-     color: black;
+P > a {
+     color: white;
      font-size: large;
      font-weight: bold;
 }
@@ -62,5 +62,9 @@ a {
 
 .account {
      margin-top: 10px;
+}
+
+a {
+     color: black;
 }
 /*Hover*/
