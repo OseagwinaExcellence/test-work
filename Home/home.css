@@ -40,6 +40,7 @@ li {
      display: flex;
      flex-direction: row;
      justify-content: space-around;
+     align-items: center;
 }
 
 .box {
@@ -48,12 +49,19 @@ li {
      height: 50px;
      margin-top: 10px;
      border-radius: 10px;
-     
-
 }
 
 li > a {
      color: rgb(253, 166, 6);
+}
+
+footer {
+     background-color: chocolate;
+     width: 1250px;
+     height: 300px;
+     border-radius: 10px;
+     border: 2px dashed black;
+     margin-top: 16px;
 }
 
 /*Hover*/
@@ -68,12 +76,8 @@ li:hover {
 .box:hover {
      background-color: black;
      transition: 0.5s;
-
-}
-
-
-footer {
-     background-color: chocolate;
-     width: auto;
-     height: auto;
+     border-top: 2px solid white;
+     border-bottom: 2px solid white;
+     border-left: brown solid 2px;
+     border-right: brown solid 2px;
 }
