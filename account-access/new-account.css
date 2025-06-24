@@ -15,7 +15,7 @@ h1 {
 label {
      color: white;  
      text-align: center;
-     margin-left: 80px;
+     margin-left: 89px;
      margin-top: 15px;
 }
 
@@ -40,7 +40,10 @@ select {
      display: block;
      margin-left: auto;
      margin-right: auto;
-     margin-bottom: 15px;
+     margin-bottom: 10px;
+     margin-top: 4px;
+     border-radius: 10px;
+     height: 30px;
 }
 
 p {
@@ -53,8 +56,16 @@ p {
      margin-top: 17px;
 }
 
+.select-opt-1 {
+     margin-right: 130px;
+}
+
+.select-opt-2 {
+     margin-right: 150px;
+}
+
 .dob-label {
-     margin-left: 70px;
+     margin-left: 200px;
 }
 
 .checkbox {
@@ -62,8 +73,13 @@ p {
      height: 10px;
 }
 
-.term-and-condition {
+
+p {
      font-size: 11px;
      margin: 0px;
      padding: 0px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
 }
