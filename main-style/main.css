@@ -8,3 +8,16 @@ body {
      src: url(../underdog/Underdog-Regular.ttf);
      font-family: "underdog";
 }
+
+input {
+     margin-left: auto;
+     margin-right: auto;
+     width: 305px;
+     height: 30px;
+     margin-bottom: 20px;
+     margin-top: 6px;
+     border-radius: 100px;
+     border: 5px white solid;
+     padding: 5px 10px;
+     font-style: italic;
+}
