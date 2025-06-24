@@ -5,7 +5,6 @@ form {
      margin-left: auto;
      margin-right: auto;
      padding: 50px 10px 45px 60px;
-     border: 5px solid wheat;
      border-radius: 50px;
      margin-top: 100px;
 }
@@ -66,34 +65,10 @@ button {
 
 p > a {
      color: white;
+     
 }
 
-.sign-in-btn {
+
+#link-color {
      color: black;
-}
-
-/*Hover*/
-input:hover {
-     background-color: black;
-     color: white;
-     transition: 0.5s;
-     font-weight: bolder;
-     font-size: 15px;
-}
-
-form:hover {
-     background-color: rgb(20, 20, 20);
-     border: 5px solid rgb(40, 26, 1);
-     transition: 1s;
-}
-
-button:hover {
-     background-color: black;
-     color: white;
-     transition: 0.3s;
-     font-family: initial;
-}    
-
-.sign-in-btn:hover {
-     color: white;
 }

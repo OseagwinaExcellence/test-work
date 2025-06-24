@@ -3,11 +3,15 @@ form {
      margin-left: auto;
      margin-right: auto;
      margin-top: 195px;
-     background-color: black;
      color: white;
-     padding: 0px 70px 10px 50px;
+     padding: 0px 80px 10px 60px;
      border-radius: 50px;
-     border: 5px solid wheat;
+}
+
+h1 {
+     text-align: center;
+     padding-top: 50px;
+     margin-bottom: 50px;
 }
 
 input {
@@ -15,7 +19,7 @@ input {
      margin-right: auto;
      width: 305px;
      height: 30px;
-     border-radius: 10px;
+     border-radius: 50px;
      margin-bottom: 25px;
      padding-left: 10px;
      padding-right: 10px;
@@ -32,17 +36,15 @@ label {
 }
 
 p {
+     margin-top: 0px;
+     font-size: large;
+     font-weight: bold;
 }
 
 
 div {
-     margin-bottom: 24px;
+     margin-bottom: 20px;
      text-align: center;
-}
-button {
-     font-family: inherit;
-     background-color: white;
-     
 }
 
 a {
@@ -50,3 +52,15 @@ a {
      font-size: large;
      font-weight: bold;
 }
+
+.forgotten-div {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.account {
+     margin-top: 10px;
+}
+/*Hover*/

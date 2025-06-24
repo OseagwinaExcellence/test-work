@@ -3,22 +3,24 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Forgot Password</title>
+     <title>Account Recovery</title>
      <link rel="stylesheet" href="../main-style/main.css">
-     <link rel=stylesheet href="forgot-password.css">
+     <link rel=stylesheet href="account-recovery.css">
 </head>
 <body>
      <form class="fo" action="">
-          <h1>Forgot Password</h1>
+          <h1>Account Recovery</h1>
           <label for="">E-Mail:</label>
           <input type="text" required placeholder="Enter E-Mail">
           <label for="">Enter New Password:</label>
           <input type="password" required placeholder="Enter New Password">
           <label for="">Confirm Password:</label>
           <input type="password" required placeholder="Re-enter New Password">
-          <p><input type="checkbox" name="" id="checkbox">Remember Me</p>
+          <div class="forgotten-div">
+               <p  class="account"><input type="checkbox" name="" id="checkbox">Remember Me</p><p><a href="./new-account.html">Create account</a></p>
+          </div>
           <div>
-               <button><a href="../account-access/sign-in.html">Done</a></button>
+               <button><a class="account-access-btn" href="../account-access/sign-in.html">Done</a></button>
           </div>
      </form>
 </body>

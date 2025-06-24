@@ -21,3 +21,59 @@ input {
      padding: 5px 10px;
      font-style: italic;
 }
+
+button {
+     background-color: white;
+     height: 30px;
+     width: 150px;
+     border-radius: 10px;
+     color: black;
+     font-weight: bold;
+     font-size: large;
+     padding: 15px 10px 30px 10px;   
+     cursor: pointer; 
+     font-family: inherit;
+}
+
+form {
+     border: rgb(44, 21, 21) 12px solid;
+     background-color: rgb(17, 5, 5);
+}
+
+/*Hover*/
+form:hover {
+     border: rgb(0, 0, 0) 12px solid;
+     background-color: rgb(30, 9, 9);
+     transition: 1s;
+}
+
+input:hover {
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+     font-weight: bolder;
+     font-size: 15px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+     background-color: black;
+     color: white;
+     transition: 0.3s;
+     font-family: inherit;
+}  
+
+#account-access {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     margin-right: 40px;
+     font-weight: bold;
+     cursor: pointer;
+}
+
+.account-access-btn:hover {
+     color: white;
+
+}
