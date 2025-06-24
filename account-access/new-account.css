@@ -2,7 +2,7 @@ form {
      border-radius: 50px;
      margin-top: 150px;
      padding: 10px 10px 10px 10px;
-     width: 450px;
+     width: 490px;
 }
 
 h1 {
@@ -43,6 +43,10 @@ select {
      margin-bottom: 15px;
 }
 
+p {
+     color: white;
+}
+
 /*Classes*/
 .dob-input {
      width: 150px;
@@ -53,18 +57,13 @@ select {
      margin-left: 70px;
 }
 
-p {
-     color: white;
-}
-
 .checkbox {
-     width: 15px;
-     height: 15px;
+     width: 10px;
+     height: 10px;
 }
 
 .term-and-condition {
-     display: flex;
-     flex-direction: row;
-     justify-content: ;
-     align-items: cente;
+     font-size: 11px;
+     margin: 0px;
+     padding: 0px;
 }
