@@ -1,5 +1,10 @@
 body {
-     font-family: monospace;
+     font-family: "underdog";
      background: linear-gradient(black, grey,black);
      color: rgb(9, 9, 9);
+}
+
+@font-face {
+     src: url(../underdog/Underdog-Regular.ttf);
+     font-family: "underdog";
 }

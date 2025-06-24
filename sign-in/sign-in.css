@@ -66,10 +66,15 @@ button {
      font-size: 15px;
      padding: 15px 10px 30px 10px;   
      cursor: pointer; 
+     font-family: inherit;
 }
 
 p > a {
      color: white;
+}
+
+.sign-in-btn {
+     color: black;
 }
 
 /*Hover*/
@@ -91,4 +96,9 @@ button:hover {
      background-color: black;
      color: white;
      transition: 0.3s;
+     font-family: initial;
 }    
+
+.sign-in-btn:hover {
+     color: white;
+}

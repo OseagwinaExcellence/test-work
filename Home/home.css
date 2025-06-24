@@ -56,12 +56,22 @@ li > a {
 }
 
 footer {
-     background-color: chocolate;
+     background-color: white;
+     color: white;
      width: 1250px;
      height: 300px;
      border-radius: 10px;
      border: 2px dashed black;
      margin-top: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: bold;
+     letter-spacing: 3px;
+}
+
+button {
+     font-family: inherit;
 }
 
 /*Hover*/
@@ -81,3 +91,11 @@ li:hover {
      border-left: brown solid 2px;
      border-right: brown solid 2px;
 }
+
+footer:hover {
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+     
+}
+
