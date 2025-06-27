@@ -6,6 +6,7 @@ header {
      padding: 10px 0px;
      border-radius: 10px;
      border: 1px wheat solid;
+     margin-top: 1px;
 }
 
 
@@ -113,3 +114,7 @@ footer:hover {
      
 }
 
+header:hover {
+     border: 3px solid wheat;
+     transition: 0.2s;
+}
