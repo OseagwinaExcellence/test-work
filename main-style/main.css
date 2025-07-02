@@ -22,7 +22,7 @@ input {
      font-style: italic;
 }
 
-button {
+.account-recovery-btn {
      background-color: white;
      height: 30px;
      width: 150px;
@@ -56,7 +56,7 @@ input:hover {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-button:hover {
+.account-recovery-btn:hover {
      background-color: black;
      color: white;
      transition: 0.3s;
