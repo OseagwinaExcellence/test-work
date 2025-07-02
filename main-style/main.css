@@ -22,7 +22,7 @@ input {
      font-style: italic;
 }
 
-.account-recovery-btn {
+button {
      background-color: white;
      height: 30px;
      width: 150px;
