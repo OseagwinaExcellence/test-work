@@ -56,7 +56,7 @@ input:hover {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.account-recovery-btn:hover {
+button:hover {
      background-color: black;
      color: white;
      transition: 0.3s;
