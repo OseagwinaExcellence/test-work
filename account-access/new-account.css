@@ -93,3 +93,8 @@ p {
      width: 90px;
      height: 15px;
 }
+
+
+a:hover {
+     color: white;
+}
