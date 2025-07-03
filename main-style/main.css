@@ -17,7 +17,7 @@ input {
      margin-bottom: 20px;
      margin-top: 6px;
      border-radius: 10px;
-     border: 5px white solid;
+     border: 2px  solid;
      padding: 5px 10px;
      font-style: italic;
 }
@@ -48,8 +48,8 @@ form:hover {
 }
 
 input:hover {
-     background-color: black;
-     color: white;
+     background-color: bisque;
+     color: black;
      transition: 0.5s;
      font-weight: bolder;
      font-size: 15px;
