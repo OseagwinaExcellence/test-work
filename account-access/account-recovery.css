@@ -14,17 +14,6 @@ h1 {
      margin-bottom: 50px;
 }
 
-input {
-     margin-left: auto;
-     margin-right: auto;
-     width: 305px;
-     height: 30px;
-     border-radius: 50px;
-     margin-bottom: 25px;
-     padding-left: 10px;
-     padding-right: 10px;
-}
-
 label {
      font-size: large;
      font-weight: bold;
@@ -61,7 +50,7 @@ P > a {
 }
 
 .account {
-     margin-top: 10px;
+     margin-top: 12px;
 }
 
 a {
