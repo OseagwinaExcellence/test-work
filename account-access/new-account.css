@@ -88,3 +88,8 @@ p {
      justify-content: space-around;
      align-items: center;
 }
+
+.age {
+     width: 90px;
+     height: 15px;
+}
